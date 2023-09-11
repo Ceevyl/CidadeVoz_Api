@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "public": true,
+    "build": {
+        "src": "api/index.js"
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "api/index.js"
+        }
+    ]
+}
