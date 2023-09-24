@@ -9,10 +9,10 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 const pool = new Pool({
     user: "postgres",
-    host: "containers-us-west-57.railway.app",
+    host: "containers-us-west-71.railway.app",
     database: "railway",
-    password: "rKvF06ev1zO0RTvqu48a",
-    port: 5755
+    password: "03xjK0maOGqrklqA4t83",
+    port: 6863
 })
 
 const ActualData = 2020;
