@@ -130,7 +130,7 @@ app.post("/addvereadortoperiodo", async (req, res) => {
         await insertVereador(CPF, MyData);
         res.send("Absorvido Com Sucesso");
     } catch (error) {
-        res.status(500).send("Erro ao realizar a inserção");
+        res.status(500).send(error);
     }
 });
 
